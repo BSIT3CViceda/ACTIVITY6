@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.headerContainer h1 {
+    margin-left: 600px;
+    font-size: 80px;
+}
+
+.profileImage {
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin-right: 10%;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.sectionTitle {
+    margin: 15px 300px;
+    width: 1000px;
+    border: 2px solid #151515;
+    border-radius: 10px;
+    background-color: #151515;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.personalDetails, .educationDetails {
+    margin: 15px 300px;
+    border: 2px solid #151515;
+    border-radius: 10px;
+    padding: 14px;
+    width: 980px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color:#151515;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    color: #151515;
+    padding: 2px;
+    text-align: left;
+}
+
+th {
+    width: 25%; 
+}
+
+
+.underline {
+    margin-left: 5px;
+    display: inline-block; 
+    width: 200px;
+}
+
+.container{
+    display: inline-block;
+}
+
+.info-box {
+    float: left;
+    margin-left: 300px;
+    border: 2px solid #151515;
+    border-radius: 10px;
+    padding: 14px;
+    width: 470px;
+}
+
+.agreement {
+    float: left;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 14px;
+    width: 470px;
+}
+
+
+.agreement-text-1{
+    word-spacing: 3px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.box-underline {
+    display: inline-block;
+    border-bottom: 1px solid #151515;
+    width: 80%;
+    margin: 8px 40px;
+}
+
+.agreement-text-2{
+    text-align: center;
+}
